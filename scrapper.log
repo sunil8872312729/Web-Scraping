@@ -1,0 +1,16 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2024 23:35:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2024 23:35:52] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2024 23:35:52] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'realme', 'Name': 'RANGU HARI PRASAD', 'Rating': '4', 'CommentHead': 'Great product', 'Comment': 'Camara quality superb.....Quick chargingDisplay (ok)..I will update the review after few days.'}, {'Product': 'realme', 'Name': 'Vikram  Singh ', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Perfect smart phone in this price... Great thank you realme...for best Camera phone in this price I loved \U0001f60d see the pictures without editing'}, {'Product': 'realme', 'Name': 'Vinoth kumar', 'Rating': '4', 'CommentHead': 'Wonderful', 'Comment': 'Camara is good!'}, {'Product': 'realme', 'Name': 'Sanju Bera', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Good \U0001f44c\U0001f44c\U0001f44c'}, {'Product': 'realme', 'Name': 'Govind  Sharma ', 'Rating': '3', 'CommentHead': 'Nice', 'Comment': 'Overall phone is good in this price range one thing should be improved in sound quality i am happy with my product..'}, {'Product': 'realme', 'Name': 'Varun Meena', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Good looking'}, {'Product': 'realme', 'Name': 'Akash Ali', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': "Nice product and I'm happy"}, {'Product': 'realme', 'Name': 'Akil  Deshmukh', 'Rating': '1', 'CommentHead': 'Unsatisfactory', 'Comment': 'Design Camera Sound All GoodBut One Problem Parfmenc to BadRealme C53 is Vest Of Money So Much hanging And so Much hittingVery Bad Product.'}, {'Product': 'realme', 'Name': 'Sonu Tiwari', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Amazing camera \U0001f497\U0001f497\U0001f497\U0001f497'}, {'Product': 'realme', 'Name': 'Rakesh Verma', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Good quality'}, {'Product': 'realme', 'Name': 'Rakesh Verma', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Good quality'}]
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2024 23:36:03] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2024 23:36:03] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2024 23:36:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
